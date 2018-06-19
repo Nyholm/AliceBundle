@@ -42,7 +42,7 @@ final class Configuration implements ConfigurationInterface
                         '%kernel.root_dir%',
                         '%kernel.project_dir%',
                     ])
-                    ->scalarPrototype()
+                    ->prototype('scalar')
                 ->end()
             ->end()
         ;
